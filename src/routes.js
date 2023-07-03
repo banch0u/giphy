@@ -1,4 +1,4 @@
-import App from "./App";
+import Home from "./pages/home";
 
 function routeItem(id, title, path, component) {
   return {
@@ -9,7 +9,7 @@ function routeItem(id, title, path, component) {
   };
 };
 const routes = {
-  home: routeItem(1, 'app', "/", App),
+  home: routeItem(1, 'home', "/", Home),
 
 };
 
